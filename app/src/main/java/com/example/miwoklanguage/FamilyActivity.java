@@ -26,6 +26,7 @@ public class FamilyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         final ArrayList<Word> numbers = new ArrayList<Word>();
 

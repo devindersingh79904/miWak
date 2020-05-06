@@ -51,6 +51,9 @@ public class NumbersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
         final ArrayList<Word> numbers = new ArrayList<Word>();

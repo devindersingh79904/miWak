@@ -26,6 +26,7 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         final ArrayList<Word> numbers = new ArrayList<Word>();
 
         numbers.add(new Word("Where are you going?","minto wuksus",R.raw.phrase_where_are_you_going));
